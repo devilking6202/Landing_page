@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +26,7 @@
     float: left;
     left: 200px;
     font-size: 26px;
-    font-family: montserrat alternates;
+    font-family: Montserrat Alternates;
     padding: 35px 20px 25px 20px;
     background-color:rgb(255, 111, 59);
     box-shadow:rgba(0, 0, 0, 0.884) 0px  5px 20px;
@@ -57,7 +59,7 @@ background-color: rgba(0, 0, 0, 0.199);
 
    text-decoration: none;
    color: rgb(255, 255, 255);
-   font-family: montserrat;
+   font-family: Montserrat;
    font-size: 20px;
    /* margin: 10px; */
    overflow: hidden;
@@ -107,14 +109,14 @@ position: relative;
 }
 .content h3{
     font-size: 20px;
-    font-family: montserrat;
+    font-family: Montserrat;
     margin-bottom: 30px;
 }
 button{
     font-size: 19px;
     border: none;
     padding: 15px 30px;
-    font-family: raleway;
+    font-family: Raleway;
     background-color: transparent;
     border: coral 1.7px solid;
     font-weight: 900px;
@@ -161,7 +163,7 @@ u2{
     margin: auto;
     text-align:justify;
     margin-right:90px ;
-    font-family: montserrat;
+    font-family: Montserrat;
     color: white;
 }
 
