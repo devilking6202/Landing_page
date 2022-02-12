@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+#landing{
+    height: 100vh;
+     background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./1407953244000-177513283.jpg);
+     background-size: cover;
+}
+
+
+#navbar{
+ 
+    
+    height: 120px;
+ 
+}
+#navbar h3{
+    position: absolute;
+    float: left;
+    left: 200px;
+    font-size: 26px;
+    font-family: montserrat alternates;
+    padding: 35px 20px 25px 20px;
+    background-color:rgb(255, 111, 59);
+    box-shadow:rgba(0, 0, 0, 0.884) 0px  5px 20px;
+  
+
+}
+.styling{
+    color: rgb(0, 0, 0);   
+    border-bottom: 3px solid black;
+}
+
+.menu{
+   font-size: 19px;
+overflow: auto;
+float:right;
+padding: 30px;
+background-color: rgba(0, 0, 0, 0.199);
+}
+#navbar ul li{
+    float: left;
+    
+    padding: 2px 0px;
+    margin-left:40px ;
+    margin-right: 40px;
+    font-family:Montserrat;
+    /* color: rgb(255, 255, 255);
+   border-bottom: rgba(255, 255, 255, 0.938) 2px solid; */
+
+
+
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   font-family: montserrat;
+   font-size: 20px;
+   /* margin: 10px; */
+   overflow: hidden;
+   transition: 0.7s all;
+   /* background-color: aqua; */
+   position: relative;
+   /* padding: 20px 30px 10px 30px; */
+   display: block;
+}
+
+.menu li::after {
+    content: "";
+    width: 0%;
+    border-bottom: 3px solid white;
+    bottom: 0;
+    right: 30px;
+    text-align: center;
+    transition: 0.5s all;
+    position: absolute;
+}
+
+.menu li:hover::after {
+    right: 0;
+    border-bottom: 3px solid coral;
+    width: 100%;
+}
+#navbar ul li:hover{
+     transition: 0.3s all ease-in-out;
+
+color: coral;
+
+
+}
+.content{
+   width: fit-content;
+    color: white;
+text-align: center;
+margin: auto;
+top: 140px;
+position: relative;
+
+}
+.content h1{
+    font-size: 70px;
+    font-family:Krona One;
+    
+}
+.content h3{
+    font-size: 20px;
+    font-family: montserrat;
+    margin-bottom: 30px;
+}
+button{
+    font-size: 19px;
+    border: none;
+    padding: 15px 30px;
+    font-family: raleway;
+    background-color: transparent;
+    border: coral 1.7px solid;
+    font-weight: 900px;
+    color: coral;
+    transition: 0.6s;
+}
+button:hover{
+
+    color: white;
+    background: rgb(255, 103, 48);
+    transition: 0.7s all ease ease-in;
+    cursor: pointer;
+}
+i{
+    margin-left: 5px;
+    transition: 0.25s;
+}
+button:hover > i{
+    transition: 0.25s;
+    transform: translateX(10px);
+}
+u2{
+    font-weight: 800;
+    color: coral;
+    
+}
+#history{
+    position: relative;
+    height: 80vh;
+    background-color: rgb(20, 20, 20);
+}
+#history .image{
+    width: 55%;
+    /* height: 100vh; */
+    /* background-image: url(./restaurant_135621509.jpg);
+    background-repeat: no-repeat; */
+   
+   
+    /* background-color: aqua; */
+    float: left;
+}
+.writing{
+    z-index: 1;
+    margin: auto;
+    text-align:justify;
+    margin-right:90px ;
+    font-family: montserrat;
+    color: white;
+}
+
+.writing h2{
+    font-size: 40px;
+    line-height: 3em;
+    text-decoration: underline;
+    
+}
+.writing p{
+     line-height: 28px;
+}
+img{
+  margin-top: 30px;
+}
